@@ -271,7 +271,7 @@ const cards = [
   {
     description: "DETAILS COMING SOON",
     title: "Iotron1.0",
-    src: "/p1.jpg",
+    src: "/iotron.png",
     ctaText: "Check",
     ctaLink: "",
     content: () => {
@@ -282,23 +282,12 @@ const cards = [
       );
     },
   },
-  {
-    description: "DETAILS COMING SOON",
-    title: "IoT NEXUS",
-    src: "/p1.jpg",
-    ctaText: "Check",
-    ctaLink: "",
-    content: () => {
-      return (
-        <p className="text-2xl font-mono text-white">DETAILS COMING SOON</p>
-      );
-    },
-  },
+
 
   {
     description: "DETAILS COMING SOON",
-    title: "IoT WORKSHOP",
-    src: "/p1.jpg",
+    title: "Xmble",
+    src: "/xmble.png",
     ctaText: "Check",
     ctaLink: "",
     content: () => {

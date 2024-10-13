@@ -4,6 +4,7 @@ export const navItems = [
   { name: "Projects", link: "#projects" },
   { name: "Members", link: "#members" },
   { name: "Contact", link: "#contact" },
+
 ];
 
 export const gridItems = [
@@ -63,16 +64,16 @@ export const gridItems = [
     img: "",
     spareImg: "/grid.svg",
   },
-  {
-    id: 6,
-    title: "Connect with us",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-    img: "",
-    spareImg: "",
-  },
+  // {
+  //   id: 6,
+  //   title: "Connect with us",
+  //   description: "",
+  //   className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+  //   imgClassName: "",
+  //   titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+  //   img: "",
+  //   spareImg: "",
+  // },
 ];
 
 export const projects = [
@@ -187,6 +188,11 @@ export const workExperience = [
     desc: "FACULTY COORDINATOR , H.O.D CSE-IOT",
     className: "md:col-span-2",
     thumbnail: "/mayank-sir.jpeg",
+    socials: ["/linkedin.svg", "/mail.svg"],
+    socialslinks: [
+      "https://www.linkedin.com/in/mayank-deep-khare-23871640?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "hodiot@niet.co.in",
+    ],
   },
   {
     id: 2,
@@ -194,6 +200,11 @@ export const workExperience = [
     desc: "FACULTY COORDINATOR , DEPUTY H.O.D CSE-M.TECH INTEGRATED",
     className: "md:col-span-2",
     thumbnail: "aditee-mam.jpeg",
+    socials: ["/linkedin.svg", "/mail.svg"],
+    socialslinks: [
+      "https://www.linkedin.com/in/aditee-m-5841b4140?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "aditeemattoo@niet.co.in",
+    ],
   },
   {
     id: 3,
@@ -201,6 +212,12 @@ export const workExperience = [
     desc: "Intern at FirstThing , PRESIDENT AT SIGNODES CLUB ,  EMERGIN'23 WINNER , HACK-A-THON IMS'23 WINNER , HACKX-NIET'23 WINNER , SIH-FINALIST'23 , IILM WINNER , HARD-WAR UPES FINALIST , BIC'23 TOP 5 IN COLLEGE CATEGORY , CSE-IOT (4rd-year)",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "prashant.jpeg",
+    socials: ["/github2.svg", "/linkedin.svg", "/mail.svg"],
+    socialslinks: [
+      "https://github.com/Prashant9876",
+      "https://www.linkedin.com/in/prashant74887?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "",
+    ],
   },
   {
     id: 4,
@@ -208,6 +225,12 @@ export const workExperience = [
     desc: "INTERN AT BRAINWAVE TECHNOLOGIES , HARDWARE HEAD AT SIGNODES CLUB , EMERGIN'23 WINNER , HACK-A-THON IMS'23 WINNER , HACKX-NIET'23 WINNER , SIH-FINALIST'23 , IILM WINNER , HARD-WAR UPES FINALIST , BIC'23 TOP 5 IN COLLEGE CATEGORY , AWARD WINNING INNOVATOR , CSE-IOT (4rd-year)",
     className: "md:col-span-2",
     thumbnail: "amy.jpeg",
+    socials: ["/github2.svg", "/linkedin.svg", "/mail.svg"],
+    socialslinks: [
+      "",
+      "https://www.linkedin.com/in/amiya-krishna-gupta-b7635423b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "",
+    ],
   },
   // {
   //   id: 5,
@@ -215,6 +238,7 @@ export const workExperience = [
   //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui deleniti tempore nesciunt natus iusto quos impedit hic sapiente nulla laudantium",
   //   className: "md:col-span-2",
   //   thumbnail: "/exp1.svg",
+  //   socials: ["/github2.svg", "/linkedin.svg", "/mail.svg"],
   // },
   {
     id: 6,
@@ -222,6 +246,12 @@ export const workExperience = [
     desc: "EVENT HEAD AT SIGNODES CLUB , EMERGIN'23 WINNER , HACK-A-THON IMS'23 WINNER , HACKX-NIET'23 WINNER , SIH-FINALIST'23 , IILM WINNER , HARD-WAR UPES FINALIST , BIC'23 TOP 5 IN COLLEGE CATEGORY , CSE-IOT (4rd-year)",
     className: "md:col-span-2",
     thumbnail: "piyush.jpeg",
+    socials: ["/github2.svg", "/linkedin.svg", "/mail.svg"],
+    socialslinks: [
+      "https://github.com/Emiwine",
+      "http://www.linkedin.com/in/piyushjha2506",
+      "piyushjha416@gmail.com",
+    ],
   },
   {
     id: 7,
@@ -229,6 +259,12 @@ export const workExperience = [
     desc: "SOCIAL MEDIA HEAD AT SIGNODES , PRESIDENT AT MEGAPIXELS DESIGNER , CSE-IOT (4rd-year)",
     className: "md:col-span-2",
     thumbnail: "aryan.jpeg",
+    socials: ["/github2.svg", "/linkedin.svg", "/mail.svg"],
+    socialslinks: [
+      "https://github.com/Anonymousurfer08",
+      "https://www.linkedin.com/in/aryan-srivastav-b3a29524b/",
+      "aryansrivastavone@gmail.com",
+    ],
   },
   {
     id: 8,
@@ -236,6 +272,12 @@ export const workExperience = [
     desc: "VICE-PRESIDENT AT SIGNODES CLUB ,CSE-IOT (3rd-year), HACKX-NIET'23 WINNER , HACKFEEST HACKATHON AT GEEKS-FOR-GEEKS PATICIPANT , CSE-IOT (3rd-year)",
     className: "md:col-span-2",
     thumbnail: "sumesh.jpeg",
+    socials: ["/github2.svg", "/linkedin.svg", "/mail.svg"],
+    socialslinks: [
+      "https://github.com/Sumesh-skr",
+      "https://www.linkedin.com/in/sumesh-skr",
+      "0221csiot105@niet.co.in",
+    ],
   },
   {
     id: 9,
@@ -243,16 +285,18 @@ export const workExperience = [
     desc: "VICE-PRESIDENT AT SIGNODES , BUILDING COHORTLAB , GDG NIET TECHNICAL LEAD'24 , AI/ML ENTHUSIAST , CSE-IOT(3rd year)",
     className: "md:col-span-2",
     thumbnail: "rishi.jpeg",
+    socials: ["/github2.svg", "/linkedin.svg", "/mail.svg"],
+    socialslinks: ["https://github.com/Sumesh-skr"],
   },
 ];
 
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/insta.svg",
   },
   {
     id: 3,
-    img: "/insta.svg",
+    img: "/linkedin.svg",
   },
 ];

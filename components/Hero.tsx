@@ -6,70 +6,77 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36" id="home">
-      {/**
-       *  UI: Spotlights
-       *  Link: https://ui.aceternity.com/components/spotlight
-       */}
-      <div>
-        <Spotlight
-          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
-          fill="white"
-        />
-        <Spotlight
-          className="h-[80vh] w-[50vw] top-10 left-full"
-          fill="purple"
-        />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
-      </div>
-
-      {/**
-       *  UI: grid
-       *  change bg color to bg-black-100 and reduce grid color from
-       *  0.2 to 0.03
-       */}
-      <div
-        className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
-       absolute top-0 left-0 flex items-center justify-center"
-      >
-        {/* Radial gradient for the container to give a faded look */}
-        <div
-          // chnage the bg to bg-black-100, so it matches the bg color and will blend in
-          className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
-         bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
-        />
-      </div>
-
-      <div className="flex justify-center relative my-20 z-10">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Welcome to our space , where we not only live but create experiences
-          </p>
-
-          {/**
-           *  Link: https://ui.aceternity.com/components/text-generate-effect
-           *
-           *  change md:text-6xl, add more responsive code
-           */}
-          <TextGenerateEffect
-            words="Welcoming to our Signodes club at NIET"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+    <>
+      <div className="pb-20 pt-[7.1rem] lg:flex-row" id="home">
+        {/**
+         *  UI: Spotlights
+         *  Link: https://ui.aceternity.com/components/spotlight
+         */}
+        <div>
+          <Spotlight
+            className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
+            fill="white"
           />
+          <Spotlight
+            className="h-[80vh] w-[50vw] top-10 left-full"
+            fill="purple"
+          />
+          <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
+        </div>
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! We are Signodes club, a Iot based club which embrace both hardware and software based problems✨ .
-          </p>
+        {/**
+         *  UI: grid
+         *  change bg color to bg-black-100 and reduce grid color from
+         *  0.2 to 0.03
+         */}
+        <div
+          className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
+       absolute top-0 left-0 flex items-center justify-center"
+        >
+          {/* Radial gradient for the container to give a faded look */}
+          <div
+            // chnage the bg to bg-black-100, so it matches the bg color and will blend in
+            className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
+         bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
+          />
+        </div>
 
-          <a href="#contact">
-            <MagicButton
-              title="Contact Us"
-              icon={<FaLocationArrow />}
-              position="right"
+        <div className="flex justify-center relative my-20 z-10">
+          <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+            <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+              Welcome to our space , where we not only live but create
+              experiences
+            </p>
+            <div className="px-5 py-1 bg-white rounded-2xl mt-3 ">
+              <img src="/logo.png" alt="icon5" className="h-[5.2rem] max-w-full" />
+            </div>
+
+            {/**
+             *  Link: https://ui.aceternity.com/components/text-generate-effect
+             *
+             *  change md:text-6xl, add more responsive code
+             */}
+            <TextGenerateEffect
+              words="Welcoming to our Signodes club at NIET"
+              className="text-center text-[40px] md:text-5xl lg:text-6xl"
             />
-          </a>
+
+            <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+              Hi! We are Signodes club, a Iot based club which embrace both
+              hardware and software based problems✨ .
+            </p>
+
+            <a href="#events">
+              <MagicButton
+                title="Explore Events"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -14,8 +14,8 @@ const Approach = () => {
         {/* add des prop */}
         <Card
           title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We as a team analyse and collaborate to map our problem statement , end-goals, target audience, and key functionalities. We discuss and brainstrom things like structure, 
+          icon={<AceternityIcon order="Clarify" />}
+          des="First, identify and empathize with your audience. Where are they coming from? What are their common pain points? Why do they need your solution? How will they benefit ? We as a team analyse and collaborate to map our problem statement , end-goals, target audience, and key functionalities. We discuss and brainstrom things like structure, 
           navigation , content requirements , hardware and softwares."
         >
           <CanvasRevealEffect
@@ -26,7 +26,7 @@ const Approach = () => {
         </Card>
         <Card
           title="Work Distribution and Team Management"
-          icon={<AceternityIcon order="Phase 2" />}
+          icon={<AceternityIcon order="Ideate" />}
           des="Once we decide key functionalities onn refined problem statement then, we start distributing wroks to foster amazing team work , From initial sketches to polished code and integrating with hardware devices"
         >
           <CanvasRevealEffect
@@ -46,8 +46,8 @@ const Approach = () => {
         </Card>
         <Card
           title="Building and Monitoring"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design by our teachers and senior cordinators, we will translate everything into functional code and hardware designing , from building the complete hardware with the analysis papers"
+          icon={<AceternityIcon order="Develop" />}
+          des="The third stage focuses on developing ideas from the ideation phase. This is done through testing possible solutions and noting the successes and failures of each . This is where the magic happens! Based on the approved design by our teachers and senior cordinators, we will translate everything into functional code and hardware designing , from building the complete hardware with the analysis papers"
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -57,8 +57,8 @@ const Approach = () => {
         </Card>
         <Card
           title="Development & Launch"
-          icon={<AceternityIcon order="Phase 4" />}
-          des="This is phase of the development where the magic comes into the reality 🌟 and after lot of hard work and smart work , we start combining pieces together and build the complete working project which soves the real-world problems."
+          icon={<AceternityIcon order="Implement" />}
+          des="The final stage—implementation—is the culmination of the previous three phases. It is where you take all your observations, ideas, and developments and implement a solution.This is phase of the development where the magic comes into the reality 🌟 and after lot of hard work and smart work , we start combining pieces together and build the complete working project which soves the real-world problems."
         >
           <CanvasRevealEffect
             animationSpeed={3}

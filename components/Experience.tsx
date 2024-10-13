@@ -2,12 +2,14 @@ import React from "react";
 
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
+import Link from "next/link";
 
 const Experience = () => {
   return (
     <div className="py-10 w-full" id="members">
       <h1 className="heading">
-        Our <span className="text-purple">Cordinators</span> at <span className="text-purple">Signodes</span>
+        Our <span className="text-purple">Cordinators</span> at{" "}
+        <span className="text-purple">Signodes</span>
       </h1>
 
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
@@ -42,6 +44,20 @@ const Experience = () => {
                 <p className="text-start text-white-100 mt-3 font-semibold">
                   {card.desc}
                 </p>
+                <div className="flex items-center justify-between mt-7 mb-3">
+                  <div className="flex items-center gap-2">
+                    {card.socials.map((icon, index) => (
+                      <div
+                        key={index}
+                        className="border border-white/[.2] rounded-full bg-white lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                      >
+                        <a key={index} href={card.socialslinks[index]}>
+                          <img src={icon} alt="icon5" className="p-2" />
+                        </a>
+                      </div>
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
           </Button>
