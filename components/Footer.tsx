@@ -6,7 +6,7 @@ import { Vortex } from "./ui/vortex";
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-10 pb-2" id="contact">
+    <footer className="w-full pt-10 pb-5" id="contact">
       {/* background grid */}
       <Vortex backgroundColor="transparent">
         <div className="w-full absolute left-0 -bottom-72 min-h-96">
@@ -26,7 +26,7 @@ const Footer = () => {
             Reach out to us and let&apos;s discuss how I can help you achieve
             your goals.
           </p>
-          <a href="mailto:signodes_iot@niet.co.in">
+          <a href="mailto:signodes_iot@niet.co.in" className="mb-5">
             <MagicButton
               title="Let's get in touch"
               icon={<FaLocationArrow />}
@@ -35,7 +35,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="flex sm:mt-16 md:flex-row flex-col justify-between items-center">
-          <p className="md:text-base text-sm md:font-normal font-light">
+          <p className="md:text-base text-sm md:font-normal font-light pb-5">
             Copyright © Signodes Club , NIET
           </p>
 

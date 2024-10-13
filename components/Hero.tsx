@@ -7,7 +7,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 const Hero = () => {
   return (
     <>
-      <div className="pb-20 pt-[7.1rem] lg:flex-row" id="home">
+      <div className="pb-14 pt-[7rem] lg:flex-row" id="home">
         {/**
          *  UI: Spotlights
          *  Link: https://ui.aceternity.com/components/spotlight
@@ -43,10 +43,6 @@ const Hero = () => {
 
         <div className="flex justify-center relative my-20 z-10">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-            <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-              Welcome to our space , where we not only live but create
-              experiences
-            </p>
             <div className="px-5 py-1 bg-white rounded-2xl mt-3 ">
               <img src="/logo.png" alt="icon5" className="h-[5.2rem] max-w-full" />
             </div>

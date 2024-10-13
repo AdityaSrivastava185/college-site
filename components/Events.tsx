@@ -33,7 +33,7 @@ function Events() {
   useOutsideClick(ref, () => setActive(null));
   return (
     <div>
-      <div className="pb-10 pt-10" id="events">
+      <div className="py-10" id="events">
         <div>
           <Spotlight
             className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"

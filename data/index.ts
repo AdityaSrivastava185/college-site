@@ -57,7 +57,7 @@ export const gridItems = [
     id: 5,
     title: "Our Activities",
     description:
-      "At Signodes Club, we engage in a variety of exciting events and initiatives that empower our members to push the boundaries of innovation. Our flagship events, such as Iotron and Nexus, serve as platforms for collaboration, creativity, and competition, allowing students to showcase their skills and ideas on a larger stage , In addition to participating in competitions, our members actively contribute to research papers and develop impactful IoT projects. From smart street lighting systems that enhance urban efficiency to web applications that streamline everyday tasks, our projects reflect our commitment to real-world solutions. Notably, Exeagro—our agriculture-based initiative—demonstrates how IoT can transform traditional farming practices.",
+      "At Signodes Club, we engage in a variety of exciting events and initiatives that empower our members to push the boundaries of innovation. Our flagship events, such as Iotron and Nexus, serve as platforms for collaboration, creativity, and competition, allowing students to showcase their skills and ideas on a larger stage , In addition to participating in competitions, our members actively contribute to research papers and develop impactful IoT projects. From smart street lighting systems that enhance urban efficiency to web applications that streamline everyday tasks, our projects reflect our commitment to real-world solutions. Notably, Ezeagro our agriculture-based initiative demonstrates how IoT can transform traditional farming practices.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -84,7 +84,7 @@ export const projects = [
     img: "/servo.jpeg",
     // iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "",
-    pintitle: "EzeAgro",
+    pintitle: "ROBOTIC ARM",
   }, 
   {
     id: 2,
@@ -102,7 +102,7 @@ export const projects = [
     img: "/car.jpeg",
     // iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "",
-    pintitle: "EzeBuddies",
+    pintitle: "AUTONOMOUS CAR",
   },
   {
     id: 4,
@@ -111,7 +111,7 @@ export const projects = [
     img: "/city.jpeg",
     // iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "",
-    pintitle: "Smart street lights",
+    pintitle: "SMART CITY",
   },
 ];
 
