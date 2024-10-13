@@ -6,7 +6,7 @@ import { Vortex } from "./ui/vortex";
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
+    <footer className="w-full pt-10 pb-2" id="contact">
       {/* background grid */}
       <Vortex backgroundColor="transparent">
         <div className="w-full absolute left-0 -bottom-72 min-h-96">
@@ -26,7 +26,7 @@ const Footer = () => {
             Reach out to us and let&apos;s discuss how I can help you achieve
             your goals.
           </p>
-          <a href="mailto:this@this.com">
+          <a href="mailto:signodes_iot@niet.co.in">
             <MagicButton
               title="Let's get in touch"
               icon={<FaLocationArrow />}

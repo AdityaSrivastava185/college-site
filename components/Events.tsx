@@ -33,7 +33,7 @@ function Events() {
   useOutsideClick(ref, () => setActive(null));
   return (
     <div>
-      <div className="pb-20 pt-20" id="events">
+      <div className="pb-10 pt-10" id="events">
         <div>
           <Spotlight
             className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -92,7 +92,7 @@ function Events() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed inset-0 bg-black/20 h-full w-full z-10"
+              className="fixed inset-0 bg-black-100 h-full w-full z-10"
             />
           )}
         </AnimatePresence>
@@ -122,7 +122,7 @@ function Events() {
               <motion.div
                 layoutId={`card-${active.title}-${id}`}
                 ref={ref}
-                className="w-full max-w-[500px]  h-full md:h-fit md:max-h-[90%]  flex flex-col bg-white dark:bg-blue-800 sm:rounded-3xl overflow-hidden"
+                className="w-full max-w-[500px]  h-full md:h-fit md:max-h-[90%]  flex flex-col bg-white dark:bg-black-100 sm:rounded-3xl overflow-hidden"
               >
                 <motion.div layoutId={`image-${active.title}-${id}`}>
                   <Image
@@ -156,7 +156,7 @@ function Events() {
                       layoutId={`button-${active.title}-${id}`}
                       href={active.ctaLink}
                       target="_blank"
-                      className="px-4 py-3 text-sm rounded-full font-bold bg-green-500 text-white"
+                      className="px-4 py-3 text-sm rounded-full font-bold bg-white text-black-100"
                     >
                       {active.ctaText}
                     </motion.a>
@@ -185,7 +185,7 @@ function Events() {
               layoutId={`card-${card.title}-${id}`}
               key={`card-${card.title}-${id}`}
               onClick={() => setActive(card)}
-              className="p-4 flex flex-col md:flex-row justify-between items-center hover:bg-neutral-50 dark:hover:bg-blue-900 rounded-xl cursor-pointer"
+              className="p-4 flex flex-col md:flex-row justify-between items-center hover:bg-neutral-50 dark:hover:bg-[#001861] rounded-xl cursor-pointer"
             >
               <div className="flex gap-4 flex-col md:flex-row ">
                 <motion.div layoutId={`image-${card.title}-${id}`}>
@@ -269,123 +269,41 @@ export const CloseIcon = () => {
 
 const cards = [
   {
-    description: "This is the cloudinary description",
-    title: "Cloudinary",
-    src: "/cloud.svg",
+    description: "DETAILS COMING SOON",
+    title: "Iotron1.0",
+    src: "/p1.jpg",
     ctaText: "Check",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "",
     content: () => {
       return (
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio sed
-          placeat voluptas nisi nulla ullam quam asperiores facere, unde rerum
-          qui incidunt aliquid officia eligendi architecto quia repellendus
-          veniam quod non minus maiores obcaecati, ex sequi quas? Rem assumenda
-          praesentium cupiditate, corporis, iusto soluta minus dolorem, adipisci
-          quis quisquam debitis eum voluptas quasi vero ab odit. Dolorum
-          necessitatibus molestias, non autem placeat accusantium cumque
-          tempora. Iusto velit et id. Iure earum dignissimos ea? Totam,
-          consequuntur est libero vitae numquam obcaecati magni nobis odit,
-          corporis eos omnis iste labore ut, facilis voluptas doloribus nulla ab
-          dignissimos nihil molestias porro non blanditiis.
+        <p className="text-2xl font-mono text-white">
+          DETAILS COMING SOON
         </p>
       );
     },
   },
   {
-    description: "This is the nextjs description",
-    title: "Nextjs",
-    src: "/dockerName.svg",
+    description: "DETAILS COMING SOON",
+    title: "IoT NEXUS",
+    src: "/p1.jpg",
     ctaText: "Check",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "",
     content: () => {
       return (
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio sed
-          placeat voluptas nisi nulla ullam quam asperiores facere, unde rerum
-          qui incidunt aliquid officia eligendi architecto quia repellendus
-          veniam quod non minus maiores obcaecati, ex sequi quas? Rem assumenda
-          praesentium cupiditate, corporis, iusto soluta minus dolorem, adipisci
-          quis quisquam debitis eum voluptas quasi vero ab odit. Dolorum
-          necessitatibus molestias, non autem placeat accusantium cumque
-          tempora. Iusto velit et id. Iure earum dignissimos ea? Totam,
-          consequuntur est libero vitae numquam obcaecati magni nobis odit,
-          corporis eos omnis iste labore ut, facilis voluptas doloribus nulla ab
-          dignissimos nihil molestias porro non blanditiis.
-        </p>
+        <p className="text-2xl font-mono text-white">DETAILS COMING SOON</p>
       );
     },
   },
 
   {
-    description: "This is the lorem ipsum descriotion",
-    title: "Reactjs",
-    src: "/dock.svg",
+    description: "DETAILS COMING SOON",
+    title: "IoT WORKSHOP",
+    src: "/p1.jpg",
     ctaText: "Check",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "",
     content: () => {
       return (
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio sed
-          placeat voluptas nisi nulla ullam quam asperiores facere, unde rerum
-          qui incidunt aliquid officia eligendi architecto quia repellendus
-          veniam quod non minus maiores obcaecati, ex sequi quas? Rem assumenda
-          praesentium cupiditate, corporis, iusto soluta minus dolorem, adipisci
-          quis quisquam debitis eum voluptas quasi vero ab odit. Dolorum
-          necessitatibus molestias, non autem placeat accusantium cumque
-          tempora. Iusto velit et id. Iure earum dignissimos ea? Totam,
-          consequuntur est libero vitae numquam obcaecati magni nobis odit,
-          corporis eos omnis iste labore ut, facilis voluptas doloribus nulla ab
-          dignissimos nihil molestias porro non blanditiis.
-        </p>
-      );
-    },
-  },
-  {
-    description: "This is the Events Description",
-    title: "Events",
-    src: "/fm.svg",
-    ctaText: "Check",
-    ctaLink: "https://ui.aceternity.com/templates",
-    content: () => {
-      return (
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio sed
-          placeat voluptas nisi nulla ullam quam asperiores facere, unde rerum
-          qui incidunt aliquid officia eligendi architecto quia repellendus
-          veniam quod non minus maiores obcaecati, ex sequi quas? Rem assumenda
-          praesentium cupiditate, corporis, iusto soluta minus dolorem, adipisci
-          quis quisquam debitis eum voluptas quasi vero ab odit. Dolorum
-          necessitatibus molestias, non autem placeat accusantium cumque
-          tempora. Iusto velit et id. Iure earum dignissimos ea? Totam,
-          consequuntur est libero vitae numquam obcaecati magni nobis odit,
-          corporis eos omnis iste labore ut, facilis voluptas doloribus nulla ab
-          dignissimos nihil molestias porro non blanditiis.
-        </p>
-      );
-    },
-  },
-  {
-    description: "This is the signodes description",
-    title: "Signodes",
-    src: "/host.svg",
-    ctaText: "Check",
-    ctaLink: "https://ui.aceternity.com/templates",
-    content: () => {
-      return (
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio sed
-          placeat voluptas nisi nulla ullam quam asperiores facere, unde rerum
-          qui incidunt aliquid officia eligendi architecto quia repellendus
-          veniam quod non minus maiores obcaecati, ex sequi quas? Rem assumenda
-          praesentium cupiditate, corporis, iusto soluta minus dolorem, adipisci
-          quis quisquam debitis eum voluptas quasi vero ab odit. Dolorum
-          necessitatibus molestias, non autem placeat accusantium cumque
-          tempora. Iusto velit et id. Iure earum dignissimos ea? Totam,
-          consequuntur est libero vitae numquam obcaecati magni nobis odit,
-          corporis eos omnis iste labore ut, facilis voluptas doloribus nulla ab
-          dignissimos nihil molestias porro non blanditiis.
-        </p>
+        <p className="text-2xl font-mono text-white">DETAILS COMING SOON</p>
       );
     },
   },

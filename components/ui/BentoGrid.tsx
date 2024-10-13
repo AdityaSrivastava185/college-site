@@ -67,7 +67,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "this@email.com";
+    const text = "signodes_iot@niet.co.in";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -127,14 +127,14 @@ export const BentoGridItem = ({
           {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
           {/* remove mb-2 mt-2 */}
           <div
-            className={`font-sans text-3xl pb-3 font-bold text-justify max-w-full px-5 z-10`}
+            className={`font-sans text-3xl pb-2 font-bold text-justify max-w-full px-2 z-10`}
           >
             {title}
           </div>
 
            {/* change the order of the title and des, font-extralight, remove text-xs text-neutral-600 dark:text-neutral-300 , change the text-color */}
 
-          <div className="font-sans text-justify text-sm max-w-full px-5 md:text-xs lg:text-base text-[#C1C2D3] z-10">
+          <div className="font-sans text-justify text-sm max-w-full px-2 md:text-xs lg:text-base text-[#C1C2D3] z-10">
             {description}
           </div>
 

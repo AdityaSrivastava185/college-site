@@ -60,9 +60,9 @@ const Hero = () => {
             Hi! We are Signodes club, a Iot based club which embrace both hardware and software based problems✨ .
           </p>
 
-          <a href="#about">
+          <a href="#contact">
             <MagicButton
-              title="Explore Projects"
+              title="Contact Us"
               icon={<FaLocationArrow />}
               position="right"
             />
