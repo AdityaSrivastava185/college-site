@@ -10,9 +10,10 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Signodes is a IoT based Club",
+    title: "About Signodes",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat deserunt magni sequi eius illo vero adipisci, sed, tempora doloremque impedit voluptates ea velit quibusdam, totam dolore. Quis magni nesciunt laboriosam repellendus, facilis corporis at id dignissimos, quos repellat iste. A excepturi, officiis maxime autem cum animi consequatur blanditiis! Nulla qui id possimus aliquid perspiciatis veniam odio sapiente, tempore, illo voluptatem eius! Atque eius aspernatur quasi cum cumque ipsa sunt assumenda, enim earum accusantium suscipit nam labore. Praesentium aliquam explicabo consectetur. Consectetur deleniti hic quam ducimus eaque assumenda delectus iure cum dolorum exercitationem obcaecati voluptate possimus enim mollitia, quasi, velit ea! Veritatis sequi corrupti eaque quia facilis, quae quidem debitis dolorum odio! Similique, ducimus distinctio. Dolore fugit aliquam rerum porro neque obcaecati. Error rem dignissimos obcaecati aliquam facere, quo nam quia illum molestiae quas nisi, autem odit rerum id vel. Maxime itaque deleniti, nisi illum similique autem eius nesciunt aut dolorem. Nam ipsam dolores ad voluptatum eius! Sint dignissimos possimus fuga, nihil saepe ullam nemo in nesciunt odio at. Hic sapiente vero pariatur, fuga nam facilis modi tempora illum soluta ullam dignissimos, quo animi impedit molestias reiciendis quod totam at rem assumenda quas! Eligendi quisquam reiciendis molestiae, aliquam autem dolores enim.",
+      "At Signodes Club, we are passionate about exploring the exciting world of the Internet of Things (IoT). Our club is dedicated to fostering innovation through a hands-on approach to both hardware and software projects. Whether you're a coding enthusiast, a budding engineer, or simply curious about technology, Signodes Club is the perfect place for you! We organize a variety of activities, including hackathons, workshops, and events, designed to provide students with the exposure they need to dive deep into the latest technologies. Our collaborative environment encourages creativity and teamwork, allowing members to develop practical skills while tackling real-world challenges.Join us as we explore the endless possibilities of IoT, enhance our technical skills, and build a community of forward-thinking individuals ready to shape the future of technology",
+
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -21,8 +22,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "This is Signodes ",
-    description: "Here innovation is competetive",
+    title: "Achievements ",
+    description: "Exploring the limitless potential of IoT technology",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -31,8 +32,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Technologies",
-    description: "We embrace",
+    title: "We embrace",
+    description: "technologies and learning",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -41,8 +42,9 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "This is the change",
-    description: "We embrace all the hardware and software technologies",
+    title: "Achievements",
+    description:
+      "Our members have won 10+ hackathons , showcasing their potential ,  we empower students to create smart solutions for real-world challenges",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -53,9 +55,9 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "This is the new title",
+    title: "Our Activities",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat deserunt magni sequi eius illo vero adipisci, sed, tempora doloremque impedit voluptates ea velit quibusdam, totam dolore. Quis magni nesciunt laboriosam repellendus, facilis corporis at id dignissimos, quos repellat iste.",
+      "At Signodes Club, we engage in a variety of exciting events and initiatives that empower our members to push the boundaries of innovation. Our flagship events, such as Iotron and Nexus, serve as platforms for collaboration, creativity, and competition, allowing students to showcase their skills and ideas on a larger stage , In addition to participating in competitions, our members actively contribute to research papers and develop impactful IoT projects. From smart street lighting systems that enhance urban efficiency to web applications that streamline everyday tasks, our projects reflect our commitment to real-world solutions. Notably, Exeagro—our agriculture-based initiative—demonstrates how IoT can transform traditional farming practices.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -78,7 +80,7 @@ export const projects = [
   {
     id: 1,
     title: "EzeAgro",
-    des: "This is ezeagro description",
+    des: "EzeAgro leverages IoT technology to optimize agricultural practices",
     img: "/p5.jpg",
     // iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
@@ -87,7 +89,7 @@ export const projects = [
   {
     id: 2,
     title: "Robot",
-    des: "This is the nexus robot built by signodes",
+    des: "Mark1 is an greeting robot designed to welcome and engage all members",
     img: "/p5.jpg",
     // iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
