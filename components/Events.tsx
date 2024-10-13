@@ -270,7 +270,7 @@ export const CloseIcon = () => {
 const cards = [
   {
     description: "DETAILS COMING SOON",
-    title: "Iotron1.0",
+    title: "IOTRON",
     src: "/iotron.png",
     ctaText: "Check",
     ctaLink: "",
@@ -282,12 +282,22 @@ const cards = [
       );
     },
   },
-
-
   {
     description: "DETAILS COMING SOON",
-    title: "Xmble",
+    title: "XMBLE",
     src: "/xmble.png",
+    ctaText: "Check",
+    ctaLink: "",
+    content: () => {
+      return (
+        <p className="text-2xl font-mono text-white">DETAILS COMING SOON</p>
+      );
+    },
+  },
+  {
+    description: "DETAILS COMING SOON",
+    title: "IOT NEXUS",
+    src: "/nexus.jpeg",
     ctaText: "Check",
     ctaLink: "",
     content: () => {

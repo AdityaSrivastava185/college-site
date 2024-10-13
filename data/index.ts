@@ -179,6 +179,12 @@ export const companies = [
     img: "/brainwave.svg",
     nameImg: "",
   },
+  {
+    id: 6,
+    name: "evpi",
+    img: "/evpi.jpeg",
+    nameImg: "",
+  },
 ];
 
 export const workExperience = [
@@ -209,7 +215,7 @@ export const workExperience = [
   {
     id: 3,
     title: "Prashant Kumar Signh",
-    desc: "Intern at FirstThing , PRESIDENT AT SIGNODES CLUB ,  EMERGIN'23 WINNER , HACK-A-THON IMS'23 WINNER , HACKX-NIET'23 WINNER , SIH-FINALIST'23 , IILM WINNER , HARD-WAR UPES FINALIST , BIC'23 TOP 5 IN COLLEGE CATEGORY , CSE-IOT (4rd-year)",
+    desc: "IOT ENGINEER AR EPVI , INTERN AT FirstThing , PRESIDENT AT SIGNODES CLUB ,  EMERGIN'23 WINNER , HACK-A-THON IMS'23 WINNER , HACKX-NIET'23 WINNER , SIH-FINALIST'23 , IILM WINNER , HARD-WAR UPES FINALIST , BIC'23 TOP 5 IN COLLEGE CATEGORY , CSE-IOT (4rd-year)",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "prashant.jpeg",
     socials: ["/github2.svg", "/linkedin.svg", "/mail.svg"],
